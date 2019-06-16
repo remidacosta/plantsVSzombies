@@ -1,0 +1,65 @@
+Niveau 0 Tutoriel
+NbZombies 1
+Type 1 1
+
+Niveau 1 Normal
+NbZombies 10
+Type 1 10
+
+Niveau 2 Difficile
+NbZombies 20
+Type 1 20
+
+Niveau 3 Normal
+NbZombies 20
+Type 1 10
+Type 2 10
+
+Niveau 4 Difficile
+NbZombies 30
+Type 1 20
+Tyep 2 10
+
+Niveau 5 Normal
+NbZombies 25
+Type 1 15
+Type 2 10
+
+Niveau 6 Normal
+NbZombies 25
+Type 1 5
+Type 2 10
+Type 3 10
+
+Niveau 7 Difficile
+NbZombies 30
+Type 1 10
+Type 2 10
+Type 3 10
+
+Niveau 8 Normal
+NbZombies 20
+Type 2 5
+Type 3 15
+
+Niveau 9 Cauchemar
+NbZombies 50
+Type 1 25
+Type 2 20
+Type 3 5
+
+Niveau 10 Difficile
+NbZombies 40
+Type 1 20
+Type 2 15
+Type 3 15
+
+Niveau 11 Cauchemar
+NbZombies 50
+Type 1 50
+
+Niveau 12 Cauchemar
+NbZombies 50
+Type 1 15
+Type 2 20
+Type 3 15

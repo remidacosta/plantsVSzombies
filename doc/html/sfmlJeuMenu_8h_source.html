@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PVZ:  Fichier source de src/sfmlJeuMenu.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PVZ
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">sfmlJeuMenu.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SFMLJEUMENU_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SFMLJEUMENU_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Jeu.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;sfmlJeu.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics/Sprite.hpp&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;SFML/Window.hpp&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classsfmlJeuMenu.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classsfmlJeuMenu.html">sfmlJeuMenu</a></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keyword">private</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classJeu.html">Jeu</a> jeu;                    </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classBouton.html">Bouton</a> tutoriel;            </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classBouton.html">Bouton</a> jouer;               </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classBouton.html">Bouton</a> quitter;             </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classBouton.html">Bouton</a> continuer;           </div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        sf::RenderWindow *window;   </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        sf::Texture texture;        </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        sf::Font font;              </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keyword">public</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classsfmlJeuMenu.html#a552ff94393a4782e63c6c7dee129f485">sfmlJeuMenu</a>();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classsfmlJeuMenu.html#a32175729463a2be9fcd6a2c18c9b673a">~sfmlJeuMenu</a>();</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classJeu.html">Jeu</a>&amp; <a class="code" href="classsfmlJeuMenu.html#aa2f3decbc0e366e590b90065a169362c">getJeu</a>();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#a28a7fd05b3a7ff056cd5b2f1d99dbf02">sfmlAffMenu</a>();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#a0a27f7e283bc69982aa2027b4097f9fc">sfmlMenuInit</a>();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#a3f4722b4db56f4f263b35fd9d13587c1">sfmlBoucleMenu</a>();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#aa757174a32626246d29c34ee48ad82b3">gestionsActionsClique</a>(sf::Event &amp;,<span class="keywordtype">int</span> ,<span class="keywordtype">int</span> );</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#a1115198393a3c2cc0ba7bb1fd02e1f0e">gestionsActionsRelacheClique</a>(sf::Event &amp;,<span class="keywordtype">int</span> ,<span class="keywordtype">int</span> );</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classsfmlJeuMenu.html#a050f9193643287243c5d4868a9fb2778">gestionsActionsBougeCurseur</a>(sf::Event &amp;,<span class="keywordtype">int</span> ,<span class="keywordtype">int</span>);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="classBouton.html">Bouton</a>&amp; <a class="code" href="classsfmlJeuMenu.html#a1271fb1c7b51cd240d4a7ca32e3396bb">getBoutonTutoriel</a>();</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="classBouton.html">Bouton</a>&amp; <a class="code" href="classsfmlJeuMenu.html#a04b383b10723321ef3da0386cefbf249">getBoutonJouer</a>();</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="classBouton.html">Bouton</a>&amp; <a class="code" href="classsfmlJeuMenu.html#aa5fde6f3fa7832501c00078cb3b29ec3">getBoutonQuitter</a>();</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <a class="code" href="classBouton.html">Bouton</a>&amp; <a class="code" href="classsfmlJeuMenu.html#a33e4bf62fbd34966e874fc88b685135f">getBoutonContinuer</a>();</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;};</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">#endif // SFMLJEUMENU_H</span></div><div class="ttc" id="classsfmlJeuMenu_html_aa5fde6f3fa7832501c00078cb3b29ec3"><div class="ttname"><a href="classsfmlJeuMenu.html#aa5fde6f3fa7832501c00078cb3b29ec3">sfmlJeuMenu::getBoutonQuitter</a></div><div class="ttdeci">Bouton &amp; getBoutonQuitter()</div><div class="ttdoc">Accesseur. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:253</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a552ff94393a4782e63c6c7dee129f485"><div class="ttname"><a href="classsfmlJeuMenu.html#a552ff94393a4782e63c6c7dee129f485">sfmlJeuMenu::sfmlJeuMenu</a></div><div class="ttdeci">sfmlJeuMenu()</div><div class="ttdoc">Constructeur par defaut. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:13</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a1115198393a3c2cc0ba7bb1fd02e1f0e"><div class="ttname"><a href="classsfmlJeuMenu.html#a1115198393a3c2cc0ba7bb1fd02e1f0e">sfmlJeuMenu::gestionsActionsRelacheClique</a></div><div class="ttdeci">void gestionsActionsRelacheClique(sf::Event &amp;, int, int)</div><div class="ttdoc">Gere l&amp;#39;ensemble des actions possibles sur le relachement du clic. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:183</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a32175729463a2be9fcd6a2c18c9b673a"><div class="ttname"><a href="classsfmlJeuMenu.html#a32175729463a2be9fcd6a2c18c9b673a">sfmlJeuMenu::~sfmlJeuMenu</a></div><div class="ttdeci">~sfmlJeuMenu()</div><div class="ttdoc">Destructeur du menu. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:41</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_aa2f3decbc0e366e590b90065a169362c"><div class="ttname"><a href="classsfmlJeuMenu.html#aa2f3decbc0e366e590b90065a169362c">sfmlJeuMenu::getJeu</a></div><div class="ttdeci">Jeu &amp; getJeu()</div><div class="ttdoc">Accesseur. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:46</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_aa757174a32626246d29c34ee48ad82b3"><div class="ttname"><a href="classsfmlJeuMenu.html#aa757174a32626246d29c34ee48ad82b3">sfmlJeuMenu::gestionsActionsClique</a></div><div class="ttdeci">void gestionsActionsClique(sf::Event &amp;, int, int)</div><div class="ttdoc">Gere l&amp;#39;ensemble des actions possibles sur le relachement du clic. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:156</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a0a27f7e283bc69982aa2027b4097f9fc"><div class="ttname"><a href="classsfmlJeuMenu.html#a0a27f7e283bc69982aa2027b4097f9fc">sfmlJeuMenu::sfmlMenuInit</a></div><div class="ttdeci">void sfmlMenuInit()</div><div class="ttdoc">charge une texture pour le fond du menu </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:51</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a1271fb1c7b51cd240d4a7ca32e3396bb"><div class="ttname"><a href="classsfmlJeuMenu.html#a1271fb1c7b51cd240d4a7ca32e3396bb">sfmlJeuMenu::getBoutonTutoriel</a></div><div class="ttdeci">Bouton &amp; getBoutonTutoriel()</div><div class="ttdoc">Accesseur. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:238</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a28a7fd05b3a7ff056cd5b2f1d99dbf02"><div class="ttname"><a href="classsfmlJeuMenu.html#a28a7fd05b3a7ff056cd5b2f1d99dbf02">sfmlJeuMenu::sfmlAffMenu</a></div><div class="ttdeci">void sfmlAffMenu()</div><div class="ttdoc">Affiche la page menu. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:65</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a33e4bf62fbd34966e874fc88b685135f"><div class="ttname"><a href="classsfmlJeuMenu.html#a33e4bf62fbd34966e874fc88b685135f">sfmlJeuMenu::getBoutonContinuer</a></div><div class="ttdeci">Bouton &amp; getBoutonContinuer()</div><div class="ttdoc">Accesseur. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:248</div></div>
+<div class="ttc" id="classJeu_html"><div class="ttname"><a href="classJeu.html">Jeu</a></div><div class="ttdoc">la classe Jeu represente un jeu PlantsVSZombies </div><div class="ttdef"><b>Definition:</b> Jeu.h:17</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a04b383b10723321ef3da0386cefbf249"><div class="ttname"><a href="classsfmlJeuMenu.html#a04b383b10723321ef3da0386cefbf249">sfmlJeuMenu::getBoutonJouer</a></div><div class="ttdeci">Bouton &amp; getBoutonJouer()</div><div class="ttdoc">Accesseur. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:243</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a3f4722b4db56f4f263b35fd9d13587c1"><div class="ttname"><a href="classsfmlJeuMenu.html#a3f4722b4db56f4f263b35fd9d13587c1">sfmlJeuMenu::sfmlBoucleMenu</a></div><div class="ttdeci">void sfmlBoucleMenu()</div><div class="ttdoc">Gere la boucle d&amp;#39;evenements du jeu. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:82</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html"><div class="ttname"><a href="classsfmlJeuMenu.html">sfmlJeuMenu</a></div><div class="ttdoc">La classe sfmlJeuMenu gere le menu du jeu. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.h:17</div></div>
+<div class="ttc" id="classBouton_html"><div class="ttname"><a href="classBouton.html">Bouton</a></div><div class="ttdoc">la classe Bouton represente un objet bouton dans une fenetre SFML </div><div class="ttdef"><b>Definition:</b> Bouton.h:13</div></div>
+<div class="ttc" id="classsfmlJeuMenu_html_a050f9193643287243c5d4868a9fb2778"><div class="ttname"><a href="classsfmlJeuMenu.html#a050f9193643287243c5d4868a9fb2778">sfmlJeuMenu::gestionsActionsBougeCurseur</a></div><div class="ttdeci">void gestionsActionsBougeCurseur(sf::Event &amp;, int, int)</div><div class="ttdoc">Gere l&amp;#39;ensemble des actions possibles sur un mouvement du curseur de la souris. </div><div class="ttdef"><b>Definition:</b> sfmlJeuMenu.cpp:215</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

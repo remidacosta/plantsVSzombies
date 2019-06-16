@@ -1,0 +1,4 @@
+Plante  Type  		pv	degats  prix  cadence  portee
+1	tireur		6	1	100	100	10
+2	tournesol	6	0	50	600	0
+3	noix		30	0	50	0	0

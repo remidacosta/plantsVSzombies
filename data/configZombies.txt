@@ -1,0 +1,4 @@
+Zombie	Type  		pv	degats	    cadence	vitesse
+1	basique		9	1	     100          50
+2	cone		15	1            100          50
+3	casserole	21	1            100          50

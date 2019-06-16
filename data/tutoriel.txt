@@ -1,0 +1,50 @@
+Etape 0
+Bienvenue dans Plants VS Zombies, ce jeu est créé par GROUSSET Ruben,
+LACOTE Matthieu et DA COSTA Rémi, dans le cadre de l'UE LIFAP4.
+C'est un jeu inspiré du jeu mobile du meme nom.
+
+Etape 1
+Dans ce jeu, les ressources sont les soleils, ils sont générés aléatoirement sur le terrain
+ou sont générés par les tournesols que nous verrons après.
+Les soleils servent à poser de nouvelles plantes.
+
+Etape 2
+Vous pouvez choisir quelle plante poser ici, chaque plante possède un coût en soleil.
+Vous devez cliquer sur un bouton et en suite cliquer sur une case où la poser.
+
+Etape 3
+De base il existe trois types de plante, celles qui tirent (à gauche), elles ont une cadence de tir
+, il y a les tournesols (au milieu) qui génèrent des soleils à une certaine cadence,
+et enfin il y a les plantes qui bloquent les zombies (à droite), pas de degats mais beaucoup de PV.
+
+Etape 4
+Voici le terrain, chaque case est en pelouse et est propice à la culture d'une plante.
+Les zombies arriveront de la droite et iront jusqu'à gauche, vous devez les empêcher d'avancer
+en posant des plantes pour les ralentir.
+
+Etape 5
+Si vous ne bloquez pas les zombies, les derniers remparts contre les zombies sont les tondeuses
+, celles-ci une fois activées rouleront et écraseront tous les zombies sur la ligne
+(elles ne sont utilisables qu'une fois par ligne et par niveau)
+
+Etape 6
+Un soleil va apparaitre, faites clic gauche dessus pour le récupérer,
+chaque soleil rapporte 25 d'énergies.
+
+Etape 7
+Maintenant à vous de jouer !
+Un zombie vient d'apparaitre !
+Il existe plusieurs types de zombie mais ils ont tous la meme vitesse et la meme cadence de frappe
+
+Etape 8
+Selectionner une plante tireuse (celle à 100) 
+et poser là sur la colonne de gauche en face du zombie.
+(clic droit pour de-selectionner la plante)
+Cela  devrait faire l'affaire !
+
+Etape 9
+Beau travail ! Vous etes pret pour un nouveau niveau !
+Bon courage !
+
+
+
